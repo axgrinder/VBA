@@ -1,0 +1,7 @@
+Sub AddRowAboveLast()
+
+Dim lRow As Long
+
+    lRow = Cells(Rows.Count, 1).End(xlUp).Insert
+
+End Sub
